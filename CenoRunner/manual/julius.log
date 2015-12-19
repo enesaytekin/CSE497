@@ -1,0 +1,5 @@
+ERROR: m_chkparam: cannot access cenoDeneme1.dict
+ERROR: m_chkparam: cannot access cenoDeneme1.dfa
+ERROR: m_chkparam: cannot access hmm15/hmmdefs
+ERROR: m_chkparam: cannot access tiedlist
+ERROR: m_chkparam: could not pass parameter check

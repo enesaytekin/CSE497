@@ -1,0 +1,193 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: ../train/mfcc/biriki1.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END GIR BIR BIR IKI IKI SENT-END  ==  [229 frames] -61.9632 [Ac=-14189.6 LM=0.0] (Act=14.2)
+Aligning File: ../train/mfcc/biriki2.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END GIR BIR IKI BIR IKI SENT-END  ==  [206 frames] -63.5272 [Ac=-13086.6 LM=0.0] (Act=15.6)
+Aligning File: ../train/mfcc/biriki3.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END GIR BIRD BIRD BIRDIE BIRDIE SENT-END  ==  [249 frames] -62.7898 [Ac=-15634.7 LM=0.0] (Act=13.7)
+Aligning File: ../train/mfcc/biriki4.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END GIR BIR BIRD BIRDIE BIR IKI SENT-END  ==  [349 frames] -61.1619 [Ac=-21345.5 LM=0.0] (Act=12.6)
+Aligning File: ../train/mfcc/biriki5.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END GIR BIRDIE IKI BIR BIRDIE BIR SENT-END  ==  [344 frames] -63.0172 [Ac=-21677.9 LM=0.0] (Act=13.3)
+Aligning File: ../train/mfcc/biriki6.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END BRICKY BIRD BRICKY IKI BIR SENT-END  ==  [267 frames] -66.5570 [Ac=-17770.7 LM=0.0] (Act=12.3)
+Aligning File: ../train/mfcc/biriki7.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END CHICKIE CHICKY CRICKY DICKEY DICKIE DICKY SENT-END  ==  [415 frames] -64.7244 [Ac=-26860.6 LM=0.0] (Act=23.7)
+Aligning File: ../train/mfcc/biriki8.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END MARIACHI YAYA CREATUR CREATURE DENATURE DENATURED CRATURE BEECHER SENT-END  ==  [677 frames] -65.9729 [Ac=-44663.7 LM=0.0] (Act=15.6)
+Aligning File: ../train/mfcc/biriki9.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END KATAYAN KATAYAMA KATANA KATARINA MAHAYANA HINAYANA SENT-END  ==  [556 frames] -65.8180 [Ac=-36594.8 LM=0.0] (Act=16.1)
+Aligning File: ../train/mfcc/biriki10.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END HAMA HAMADA HAMANAKA SENT-END  ==  [233 frames] -66.0071 [Ac=-15379.7 LM=0.0] (Act=17.7)
+Aligning File: ../train/mfcc/biriki11.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END DIAL ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE OH ZERO SENT-END  ==  [896 frames] -53.2931 [Ac=-47750.6 LM=0.0] (Act=13.1)
+Aligning File: ../train/mfcc/biriki12.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END DIAL ONE THREE FIVE SEVEN NINE ZERO TWO FOUR SIX EIGHT OH SENT-END  ==  [815 frames] -54.4115 [Ac=-44345.3 LM=0.0] (Act=13.3)
+Aligning File: ../train/mfcc/biriki13.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END DIAL ZERO NINE SEVEN FIVE THREE ONE OH EIGHT SIX FOUR TWO SENT-END  ==  [851 frames] -53.0949 [Ac=-45183.7 LM=0.0] (Act=12.4)
+Aligning File: ../train/mfcc/biriki14.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END DIAL ONE ONE TWO TWO THREE THREE FOUR FOUR FIVE FIVE SENT-END  ==  [732 frames] -54.9595 [Ac=-40230.3 LM=0.0] (Act=15.2)
+Aligning File: ../train/mfcc/biriki15.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END DIAL SIX SIX SEVEN SEVEN EIGHT EIGHT NINE NINE OH OH ZERO ZERO SENT-END  ==  [930 frames] -53.6312 [Ac=-49877.0 LM=0.0] (Act=13.2)
+Aligning File: ../train/mfcc/biriki16.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END PHONE STEVE YOUNG CALL STEVE YOUNG SENT-END  ==  [401 frames] -55.6173 [Ac=-22302.5 LM=0.0] (Act=11.0)
+Aligning File: ../train/mfcc/biriki17.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END PHONE STEVE CALL STEVE PHONE YOUNG CALL YOUNG SENT-END  ==  [530 frames] -54.6553 [Ac=-28967.3 LM=0.0] (Act=12.1)
+Aligning File: ../train/mfcc/biriki18.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END PHONE PHONE STEVE STEVE CALL CALL YOUNG YOUNG SENT-END  ==  [532 frames] -54.9521 [Ac=-29234.5 LM=0.0] (Act=12.5)
+Aligning File: ../train/mfcc/biriki19.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END MEASURE LEISURE AND LEISURE MEASURE SENT-END  ==  [337 frames] -56.2621 [Ac=-18960.3 LM=0.0] (Act=16.2)
+Aligning File: ../train/mfcc/biriki20.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COMPLAIN CHAMPLAIN AIRPLANE ELAINE EXPLAIN SENT-END  ==  [417 frames] -57.8587 [Ac=-24127.1 LM=0.0] (Act=12.5)
+Aligning File: ../train/mfcc/biriki21.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END BOOKENDS KENNEL KENNETH KENYA WEEKEND SENT-END  ==  [370 frames] -56.4040 [Ac=-20869.5 LM=0.0] (Act=13.0)
+Aligning File: ../train/mfcc/biriki22.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END BELT BELOW BEND AEROBIC DASHBOARD DATABASE SENT-END  ==  [512 frames] -56.6953 [Ac=-29028.0 LM=0.0] (Act=13.3)
+Aligning File: ../train/mfcc/biriki23.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END GATEWAY GATORADE GAZEBO AFGHAN AGAINST AGATHA SENT-END  ==  [600 frames] -56.9181 [Ac=-34150.8 LM=0.0] (Act=14.9)
+Aligning File: ../train/mfcc/biriki24.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ABALON ABDOMINALS BODY ABOLISH SENT-END  ==  [414 frames] -57.1192 [Ac=-23647.4 LM=0.0] (Act=14.4)
+Aligning File: ../train/mfcc/biriki25.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ABOUNDING ABOUT ACCOUNT ALLENTOWN SENT-END  ==  [450 frames] -54.1601 [Ac=-24372.0 LM=0.0] (Act=14.6)
+Aligning File: ../train/mfcc/biriki26.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ACHIEVE ACTUAL ACUPUNCTURE ADVENTURE SENT-END  ==  [452 frames] -56.4428 [Ac=-25512.2 LM=0.0] (Act=13.4)
+Aligning File: ../train/mfcc/biriki27.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ALGORITHM ALTHOUGH ALTOGETHER ANOTHER SENT-END  ==  [429 frames] -54.5457 [Ac=-23400.1 LM=0.0] (Act=11.1)
+Aligning File: ../train/mfcc/biriki28.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END BATTLE BEATLE LITTLE METAL SENT-END  ==  [364 frames] -52.8952 [Ac=-19253.9 LM=0.0] (Act=13.4)
+Aligning File: ../train/mfcc/biriki29.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END BITTEN BLATANT BRIGHTEN BRITAIN SENT-END  ==  [294 frames] -57.5671 [Ac=-16924.7 LM=0.0] (Act=13.3)
+Aligning File: ../train/mfcc/biriki30.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END BROOKHAVEN HOOD BROUHAHA BULLHEADS SENT-END  ==  [419 frames] -55.1604 [Ac=-23112.2 LM=0.0] (Act=13.3)
+Aligning File: ../train/mfcc/biriki31.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END BUSBOYS CHOICE COILS COIN SENT-END  ==  [356 frames] -55.0781 [Ac=-19607.8 LM=0.0] (Act=9.3)
+Aligning File: ../train/mfcc/biriki32.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END COLLECTION COLORATION COMBINATION COMMERCIAL SENT-END  ==  [484 frames] -55.4205 [Ac=-26823.5 LM=0.0] (Act=11.2)
+Aligning File: ../train/mfcc/biriki33.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END MIDDLE NEEDLE POODLE SADDLE SENT-END  ==  [361 frames] -54.4515 [Ac=-19657.0 LM=0.0] (Act=11.6)
+Aligning File: ../train/mfcc/biriki34.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END ALRIGHT ARTHRITIS BRIGHT COPYRIGHT CRITERIA RIGHT SENT-END  ==  [693 frames] -55.5111 [Ac=-38469.2 LM=0.0] (Act=16.5)
+Aligning File: ../train/mfcc/biriki35.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END COUPLE CRADLE CRUMBLE SENT-END  ==  [271 frames] -55.5899 [Ac=-15064.9 LM=0.0] (Act=15.9)
+Aligning File: ../train/mfcc/biriki36.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END CUBA CUBE CUMULATIVE SENT-END  ==  [294 frames] -55.3077 [Ac=-16260.5 LM=0.0] (Act=13.6)
+Aligning File: ../train/mfcc/biriki37.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END CURING CURLING CYCLING SENT-END  ==  [320 frames] -56.2581 [Ac=-18002.6 LM=0.0] (Act=12.8)
+Aligning File: ../train/mfcc/biriki38.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END CYNTHIA DANFORTH DEPTH SENT-END  ==  [352 frames] -56.0423 [Ac=-19726.9 LM=0.0] (Act=14.0)
+Aligning File: ../train/mfcc/biriki39.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END DIGEST DIGITAL DILIGENT SENT-END  ==  [307 frames] -56.0526 [Ac=-17208.2 LM=0.0] (Act=10.5)
+Aligning File: ../train/mfcc/biriki40.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END AMNESIA ASIA AVERSION BEIGE BEIJING SENT-END  ==  [560 frames] -54.9706 [Ac=-30783.5 LM=0.0] (Act=16.5)
+Aligning File: ../train/mfcc/biriki41.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END HELP HELLO HELMET HELPLESS AHEAD HELP SENT-END  ==  [541 frames] -54.5779 [Ac=-29526.7 LM=0.0] (Act=17.9)
+Aligning File: ../train/mfcc/biriki42.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END VOXFORGE HOME READ LISTEN FORUMS DEVELOPER ABOUT HOWTO TUTORIAL SENT-END  ==  [1022 frames] -54.7302 [Ac=-55934.2 LM=0.0] (Act=16.6)
+Aligning File: ../train/mfcc/biriki43.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END RHYTHMBOX PLAY START NEXT SKIP FORWARD PREVIOUS BACK SENT-END  ==  [926 frames] -54.6344 [Ac=-50591.5 LM=0.0] (Act=14.2)
+Aligning File: ../train/mfcc/biriki44.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END MUSIC SHOW WHO ABOUT INFORMATION UP LOUDER DOWN LOWER SENT-END  ==  [977 frames] -52.8634 [Ac=-51647.6 LM=0.0] (Act=13.5)
+Aligning File: ../train/mfcc/biriki45.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END PLAYER SOFTER SILENCE STOP QUIET SENT-END  ==  [532 frames] -54.1911 [Ac=-28829.7 LM=0.0] (Act=13.1)
+Aligning File: ../train/mfcc/biriki46.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END COMPUTER WEATHER EMAIL VOLUME LOUDER SOFTER SENT-END  ==  [628 frames] -54.2255 [Ac=-34053.6 LM=0.0] (Act=11.6)
+Aligning File: ../train/mfcc/biriki47.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END COMPUTERIZE AMPUTATE MINICOMPUTER PUMA'S PEWTER SENT-END  ==  [734 frames] -54.6324 [Ac=-40100.1 LM=0.0] (Act=12.8)
+Aligning File: ../train/mfcc/biriki48.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END ACUTE AMPUTATION BOOTERS CONTRIBUTOR'S ALOUETTE GIFTWARE GLADWELL SENT-END  ==  [958 frames] -55.6660 [Ac=-53328.0 LM=0.0] (Act=12.1)
+Aligning File: ../train/mfcc/biriki49.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END MAYWEATHER WHETHER WOODSTREAM ARTILLERYMAN CREMATION DAIRYMAID FEMALE SENT-END  ==  [969 frames] -53.5339 [Ac=-51874.3 LM=0.0] (Act=12.2)
+Aligning File: ../train/mfcc/biriki50.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END ISHMAEL'S LANCEDALE LAVAL VOLATILE SCALIA SOLUBLE SUPERVALUE VALUATION SENT-END  ==  [1317 frames] -53.5652 [Ac=-70545.3 LM=0.0] (Act=14.7)
+Aligning File: ../train/mfcc/biriki51.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END UC UC DORT DORT BES BES ALTI ALTI YEDI YEDI SEKIZ SEKIZ DOKUZ DOKUZ SENT-END  ==  [901 frames] -63.1208 [Ac=-56871.8 LM=0.0] (Act=14.1)
+Aligning File: ../train/mfcc/biriki52.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END UC BES YEDI DOKUZ DORT ALTI SEKIZ BIR DOKUZ ALTI UC SENT-END  ==  [688 frames] -64.5451 [Ac=-44407.1 LM=0.0] (Act=11.1)
+Aligning File: ../train/mfcc/biriki53.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END SEKIZ ALTI IKI YEDI DOKUZ UC BES ALTI DORT DORT DORT SENT-END  ==  [675 frames] -63.9793 [Ac=-43186.1 LM=0.0] (Act=11.5)
+Aligning File: ../train/mfcc/biriki54.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END ALTI ALTI DORT DORT IKI UC BIR SEKIZ DOKUZ BES BES BES BES BES SENT-END  ==  [883 frames] -60.7790 [Ac=-53667.8 LM=0.0] (Act=11.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

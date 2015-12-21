@@ -1,0 +1,55 @@
+WARNING: no script file ../lexicon/VoxForgeDict.txt.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+VoxForgeDict    268977     268977     268977     268977
+    dict-tri    268977     268977     268977     268977
+
+268977 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. th    :  7884
+  2. r     : 93293
+  3. iy    : 72779
+  4. d     : 66011
+  5. sp    : 268975
+  6. ah    : 147728
+  7. ey    : 26540
+  8. z     : 65364
+  9. b     : 42507
+ 10. aa    : 52453
+ 11. k     : 81308
+ 12. ao    : 23835
+ 13. t     : 96542
+ 14. g     : 28143
+ 15. oy    :  2838
+ 16. n     : 124173
+ 17. l     : 100955
+ 18. m     : 59768
+ 19. ay    : 21119
+ 20. ow    : 37543
+ 21. s     : 101791
+ 22. p     : 40398
+ 23. eh    : 53806
+ 24. er    : 54938
+ 25. uw    : 21437
+ 26. w     : 19141
+ 27. dh    :  1499
+ 28. jh    : 12826
+ 29. ih    : 101099
+ 30. ng    : 18680
+ 31. v     : 22486
+ 32. hh    : 18612
+ 33. f     : 27610
+ 34. zh    :  1033
+ 35. ae    : 44825
+ 36. sh    : 16224
+ 37. aw    :  6723
+ 38. y     : 10685
+ 39. ch    : 10851
+ 40. uh    :  5099
+ 41. sil   :     2
+
+Dictionary dict-tri created
